@@ -1,0 +1,9 @@
+from gtts
+import gTTS
+import os
+data="Hello, this is a test" "
+lang = "en"
+audio = gTTS(text=data,lang=lang)
+audio.save("msg.mp3")
+print("\n sucessfully saved")
+os.system("msg.mp3")
